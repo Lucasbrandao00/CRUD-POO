@@ -55,5 +55,7 @@ public class Helper {
     public Boolean apagarCSV(){
         File file = new File(caminho);
         return file.delete();
+        
+        //Não conseguir fazer o UPDATE :( //
     }
 }
